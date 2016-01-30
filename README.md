@@ -2,4 +2,4 @@
 
 ## Credits
 
-  mizipzor's TileMap (https://github.com/mizipzor/UnityTileMap)
+  RyanNielson's Pixel Camera (https://github.com/RyanNielson/PixelCamera2D)
