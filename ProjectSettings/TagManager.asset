@@ -9,6 +9,11 @@ TagManager:
   - Shoot
   - Floor
   - breakedRock
+  - Alcapao
+  - Candle
+  - Floor
+  - Bat
+  - Pressure
   layers:
   - Default
   - TransparentFX
