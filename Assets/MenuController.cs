@@ -46,7 +46,7 @@ public class MenuController : MonoBehaviour {
 			}
 			}
 
-		if (Input.GetButtonDown ("PS4_X")) {
+		if (Input.GetButtonDown ("PS4_X")||Input.GetKeyDown (KeyCode.Space)|| Input.GetKeyDown(KeyCode.Return)) {
 			Application.LoadLevel(levelSelected);
 		}
 	}
