@@ -97,6 +97,8 @@ GameObject:
   - 4: {fileID: 11006396}
   - 212: {fileID: 11006395}
   - 114: {fileID: 11006397}
+  - 111: {fileID: 11006399}
+  - 95: {fileID: 11006398}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -153,6 +155,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &11006398
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11006394}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &11006399
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11006394}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &21931756
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,6 +197,8 @@ GameObject:
   - 4: {fileID: 21931758}
   - 212: {fileID: 21931757}
   - 114: {fileID: 21931759}
+  - 111: {fileID: 21931761}
+  - 95: {fileID: 21931760}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -219,6 +255,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &21931760
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 21931756}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &21931761
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 21931756}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &111569073
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,6 +297,8 @@ GameObject:
   - 4: {fileID: 111569075}
   - 212: {fileID: 111569074}
   - 114: {fileID: 111569076}
+  - 111: {fileID: 111569078}
+  - 95: {fileID: 111569077}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -285,6 +355,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &111569077
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 111569073}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &111569078
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 111569073}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &254167176
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,6 +397,8 @@ GameObject:
   - 4: {fileID: 254167178}
   - 212: {fileID: 254167177}
   - 114: {fileID: 254167179}
+  - 111: {fileID: 254167181}
+  - 95: {fileID: 254167180}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -351,6 +455,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &254167180
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 254167176}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &254167181
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 254167176}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &282389199
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,6 +497,8 @@ GameObject:
   - 4: {fileID: 282389201}
   - 212: {fileID: 282389200}
   - 114: {fileID: 282389202}
+  - 111: {fileID: 282389204}
+  - 95: {fileID: 282389203}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -417,6 +555,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &282389203
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 282389199}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &282389204
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 282389199}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &289465472
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +597,8 @@ GameObject:
   - 4: {fileID: 289465474}
   - 212: {fileID: 289465473}
   - 114: {fileID: 289465475}
+  - 111: {fileID: 289465477}
+  - 95: {fileID: 289465476}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -483,6 +655,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &289465476
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 289465472}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &289465477
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 289465472}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &331002606
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,6 +751,8 @@ GameObject:
   - 4: {fileID: 347497844}
   - 212: {fileID: 347497843}
   - 114: {fileID: 347497845}
+  - 111: {fileID: 347497847}
+  - 95: {fileID: 347497846}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -603,6 +809,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &347497846
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347497842}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &347497847
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347497842}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &381650223
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,6 +851,8 @@ GameObject:
   - 4: {fileID: 381650225}
   - 212: {fileID: 381650224}
   - 114: {fileID: 381650226}
+  - 111: {fileID: 381650228}
+  - 95: {fileID: 381650227}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -669,6 +909,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &381650227
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 381650223}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &381650228
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 381650223}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &411234627
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,6 +951,8 @@ GameObject:
   - 4: {fileID: 411234629}
   - 212: {fileID: 411234628}
   - 114: {fileID: 411234630}
+  - 111: {fileID: 411234632}
+  - 95: {fileID: 411234631}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -735,6 +1009,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &411234631
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 411234627}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &411234632
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 411234627}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &437221455
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,6 +1119,8 @@ GameObject:
   - 4: {fileID: 521563674}
   - 212: {fileID: 521563673}
   - 114: {fileID: 521563675}
+  - 111: {fileID: 521563677}
+  - 95: {fileID: 521563676}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -869,6 +1177,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &521563676
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 521563672}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &521563677
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 521563672}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &534439861
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,6 +1219,8 @@ GameObject:
   - 4: {fileID: 534439863}
   - 212: {fileID: 534439862}
   - 114: {fileID: 534439864}
+  - 111: {fileID: 534439866}
+  - 95: {fileID: 534439865}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -935,6 +1277,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &534439865
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534439861}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &534439866
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534439861}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &566840713
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,6 +1319,8 @@ GameObject:
   - 4: {fileID: 566840715}
   - 212: {fileID: 566840714}
   - 114: {fileID: 566840716}
+  - 111: {fileID: 566840718}
+  - 95: {fileID: 566840717}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -1001,6 +1377,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &566840717
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 566840713}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &566840718
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 566840713}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &602271395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,6 +1473,8 @@ GameObject:
   - 4: {fileID: 672937230}
   - 212: {fileID: 672937229}
   - 114: {fileID: 672937231}
+  - 111: {fileID: 672937233}
+  - 95: {fileID: 672937232}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -1121,6 +1531,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &672937232
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 672937228}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &672937233
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 672937228}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &690654097
 GameObject:
   m_ObjectHideFlags: 0
@@ -1131,6 +1573,8 @@ GameObject:
   - 4: {fileID: 690654099}
   - 212: {fileID: 690654098}
   - 114: {fileID: 690654100}
+  - 111: {fileID: 690654102}
+  - 95: {fileID: 690654101}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -1187,6 +1631,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &690654101
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 690654097}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &690654102
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 690654097}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &832728758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,6 +1673,8 @@ GameObject:
   - 4: {fileID: 832728760}
   - 212: {fileID: 832728759}
   - 114: {fileID: 832728761}
+  - 111: {fileID: 832728763}
+  - 95: {fileID: 832728762}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -1253,6 +1731,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &832728762
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 832728758}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &832728763
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 832728758}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &859172800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,6 +1773,8 @@ GameObject:
   - 4: {fileID: 859172802}
   - 212: {fileID: 859172801}
   - 114: {fileID: 859172803}
+  - 111: {fileID: 859172805}
+  - 95: {fileID: 859172804}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -1319,6 +1831,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &859172804
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 859172800}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &859172805
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 859172800}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &867283846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +1873,8 @@ GameObject:
   - 4: {fileID: 867283848}
   - 212: {fileID: 867283847}
   - 114: {fileID: 867283849}
+  - 111: {fileID: 867283851}
+  - 95: {fileID: 867283850}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -1385,6 +1931,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &867283850
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 867283846}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &867283851
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 867283846}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &892937921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +2308,8 @@ GameObject:
   - 4: {fileID: 1018578012}
   - 212: {fileID: 1018578011}
   - 114: {fileID: 1018578013}
+  - 111: {fileID: 1018578015}
+  - 95: {fileID: 1018578014}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -1786,6 +2366,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1018578014
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1018578010}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1018578015
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1018578010}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1070581119
 GameObject:
   m_ObjectHideFlags: 0
@@ -2246,6 +2858,8 @@ GameObject:
   - 4: {fileID: 1273786343}
   - 212: {fileID: 1273786342}
   - 114: {fileID: 1273786344}
+  - 111: {fileID: 1273786346}
+  - 95: {fileID: 1273786345}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -2302,6 +2916,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1273786345
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1273786341}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1273786346
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1273786341}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1278371564
 GameObject:
   m_ObjectHideFlags: 0
@@ -2312,6 +2958,8 @@ GameObject:
   - 4: {fileID: 1278371566}
   - 212: {fileID: 1278371565}
   - 114: {fileID: 1278371567}
+  - 111: {fileID: 1278371569}
+  - 95: {fileID: 1278371568}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -2368,6 +3016,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1278371568
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1278371564}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1278371569
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1278371564}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1285917482
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,6 +3058,8 @@ GameObject:
   - 4: {fileID: 1285917484}
   - 212: {fileID: 1285917483}
   - 114: {fileID: 1285917485}
+  - 111: {fileID: 1285917487}
+  - 95: {fileID: 1285917486}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -2434,6 +3116,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1285917486
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1285917482}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1285917487
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1285917482}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1395473897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2512,6 +3226,8 @@ GameObject:
   - 4: {fileID: 1404818528}
   - 212: {fileID: 1404818527}
   - 114: {fileID: 1404818529}
+  - 111: {fileID: 1404818531}
+  - 95: {fileID: 1404818530}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -2568,6 +3284,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1404818530
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404818526}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1404818531
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404818526}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1492867370
 GameObject:
   m_ObjectHideFlags: 0
@@ -2578,6 +3326,8 @@ GameObject:
   - 4: {fileID: 1492867372}
   - 212: {fileID: 1492867371}
   - 114: {fileID: 1492867373}
+  - 111: {fileID: 1492867375}
+  - 95: {fileID: 1492867374}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -2634,6 +3384,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1492867374
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1492867370}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1492867375
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1492867370}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1591568422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2699,6 +3481,8 @@ GameObject:
   - 4: {fileID: 1598191267}
   - 212: {fileID: 1598191266}
   - 114: {fileID: 1598191268}
+  - 111: {fileID: 1598191270}
+  - 95: {fileID: 1598191269}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -2755,6 +3539,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1598191269
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598191265}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1598191270
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598191265}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1632428816
 GameObject:
   m_ObjectHideFlags: 0
@@ -2811,6 +3627,8 @@ GameObject:
   - 4: {fileID: 1646069707}
   - 212: {fileID: 1646069706}
   - 114: {fileID: 1646069708}
+  - 111: {fileID: 1646069710}
+  - 95: {fileID: 1646069709}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -2867,6 +3685,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1646069709
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1646069705}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1646069710
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1646069705}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1948925973
 GameObject:
   m_ObjectHideFlags: 0
@@ -2877,6 +3727,8 @@ GameObject:
   - 4: {fileID: 1948925975}
   - 212: {fileID: 1948925974}
   - 114: {fileID: 1948925976}
+  - 111: {fileID: 1948925978}
+  - 95: {fileID: 1948925977}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -2933,6 +3785,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1948925977
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1948925973}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1948925978
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1948925973}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1978275368
 GameObject:
   m_ObjectHideFlags: 0
@@ -2943,6 +3827,8 @@ GameObject:
   - 4: {fileID: 1978275370}
   - 212: {fileID: 1978275369}
   - 114: {fileID: 1978275371}
+  - 111: {fileID: 1978275373}
+  - 95: {fileID: 1978275372}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -2999,6 +3885,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1978275372
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1978275368}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &1978275373
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1978275368}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2071084199
 GameObject:
   m_ObjectHideFlags: 0
@@ -3062,6 +3980,8 @@ GameObject:
   - 4: {fileID: 2144200391}
   - 212: {fileID: 2144200390}
   - 114: {fileID: 2144200392}
+  - 111: {fileID: 2144200394}
+  - 95: {fileID: 2144200393}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -3118,6 +4038,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2144200393
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2144200389}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &2144200394
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2144200389}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2145811136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3128,6 +4080,8 @@ GameObject:
   - 4: {fileID: 2145811138}
   - 212: {fileID: 2145811137}
   - 114: {fileID: 2145811139}
+  - 111: {fileID: 2145811141}
+  - 95: {fileID: 2145811140}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Bat
@@ -3184,3 +4138,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf7a10dc547ede4db9c4d5e24db3686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2145811140
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145811136}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &2145811141
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145811136}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

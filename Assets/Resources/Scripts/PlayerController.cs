@@ -109,7 +109,7 @@ public class PlayerController : MonoBehaviour {
 			}
 
 
-			if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKey(KeyCode.E)) && !canPick && !canShoot) {
+			if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKeyDown(KeyCode.Space)) && !canPick && !canShoot) {
 				if (canDestroy) {
 					GameObject rock = GameObject.FindGameObjectWithTag ("Rock");
 					Destroy (rock);
@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviour {
 				}
 			}
 
-			if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKey(KeyCode.Q)) && canPick && !canShoot) {
+			if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKeyDown(KeyCode.Q)) && canPick && !canShoot) {
 					transform.GetChild (2).gameObject.SetActive (true);
 					controls = false;
 					isMoving = false;
