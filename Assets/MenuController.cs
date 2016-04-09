@@ -12,7 +12,7 @@ public class MenuController : MonoBehaviour {
 
 	[SerializeField]
 	private Button credits;
-
+	
 	void Update () {
 
 		ps4X = Input.GetAxis ("Horizontal");

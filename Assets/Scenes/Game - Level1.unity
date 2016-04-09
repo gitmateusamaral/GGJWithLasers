@@ -727,7 +727,7 @@ MonoBehaviour:
   canHit: 0
   gravel: {fileID: 177096, guid: d6835b6bef27d9144a28c87576cfc394, type: 2}
   breakedRock: {fileID: 112684, guid: 276931591cb776d42a2c65296c20f2e3, type: 2}
-  scrollSpawn: {fileID: 926674603}
+  scrollSpawn: {fileID: 0}
   scroll: {fileID: 111870, guid: 1ce092b7f90805445861bf16b06b7f3e, type: 2}
 --- !u!111 &946195754
 Animation:
@@ -1256,7 +1256,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: .0212800503, y: -.39073658}
   serializedVersion: 2
-  m_Size: {x: 2.52490067, y: 1.21852624}
+  m_Size: {x: 3, y: 2}
 --- !u!212 &1341533307
 SpriteRenderer:
   m_ObjectHideFlags: 0

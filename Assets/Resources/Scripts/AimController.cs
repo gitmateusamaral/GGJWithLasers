@@ -17,7 +17,7 @@ public class AimController : MonoBehaviour {
 
 	void Start () {
 		sensitivy = 0.1f;
-		PcanShoot = player.GetComponent<PlayerController>().canShoot;
+		PcanShoot = this.GetComponentInParent<PlayerController> ().canShoot;
 		PcanPick = player.GetComponent<PlayerController>().canPick;
 	}
 	void FixedUpdate () {
@@ -35,11 +35,5 @@ public class AimController : MonoBehaviour {
                 new Vector2(moveX_PS4 * sensitivy + transform.position.x,
                             moveY_PS4 * sensitivy + transform.position.y);
         }
-
-
-		if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKey(KeyCode.Space)) && PcanShoot && PcanPick) {
-            GameObject.FindGameObjectWithTag("Player").SendMessage("Shooting");
-			player.GetComponent<PlayerController>().canShoot = false;
-		}
 	}
 }

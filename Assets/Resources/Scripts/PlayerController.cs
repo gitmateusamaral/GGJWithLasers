@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour {
 	private bool trigger;
 	private bool canDestroy;
 	public bool controls;
+	private bool canFinish;
 	private float jumpHeight;
 	private float speed;
 	private float moveX;
@@ -36,11 +37,11 @@ public class PlayerController : MonoBehaviour {
 	Animator anim;
 
 	private Rigidbody2D rb;
-	//private RaycastHit2D groundCheck;
 
 	void Start () {
 		scrollCanSpawn = true;
 		isJumping = false;
+		canFinish = false;
 		rb = GetComponent<Rigidbody2D> ();
 		speed = 6;
 		jumpHeight = 12;
@@ -78,16 +79,12 @@ public class PlayerController : MonoBehaviour {
 		moveX = Input.GetAxis("Horizontal");
 		anim.SetBool ("isMoving", isMoving);
 		Flip (rb.velocity.x);
+		canFinish = true;
 
 		if (placeholder >= 2) {
 
 			GameObject.FindGameObjectWithTag("Alcapao").GetComponent<SpriteRenderer>().sprite = alcSprite;
 			GameObject.FindGameObjectWithTag("Alcapao").name = "AlcapaoOpen";
-
-			/*if (scrollCanSpawn) {
-				Instantiate(scroll, scrollSpawn.transform.position, Quaternion.identity);
-				scrollCanSpawn = false;
-			}*/
 		}
 
 		if (controls) {
@@ -107,24 +104,27 @@ public class PlayerController : MonoBehaviour {
 				rb.velocity = new Vector2 (0, jumpHeight);
 				isJumping = true;
 			}
+			
+			if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKeyDown(KeyCode.Space)) && !canPick && !canShoot && canDestroy) {
+				GameObject rock = GameObject.FindGameObjectWithTag ("Rock");
+				Destroy (rock);
+				Instantiate (breakedRock, rock.transform.position, Quaternion.identity);
+				canDestroy = false;
 
-
-			if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKeyDown(KeyCode.Space)) && !canPick && !canShoot) {
-				if (canDestroy) {
-					GameObject rock = GameObject.FindGameObjectWithTag ("Rock");
-					Destroy (rock);
-					Instantiate (breakedRock, rock.transform.position, Quaternion.identity);
-					canDestroy = false;
-				}
 			}
 
-			if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKeyDown(KeyCode.Q)) && canPick && !canShoot) {
-					transform.GetChild (2).gameObject.SetActive (true);
-					controls = false;
-					isMoving = false;
-					canShoot = true;
+			if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKeyDown(KeyCode.Space)) && canPick && !canShoot) {
+				transform.GetChild (2).gameObject.SetActive (true);
+				controls = false;
+				isMoving = false;
+				canShoot = true;
+				canFinish = false;
 			}
-	}
+		}
+		if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKeyDown(KeyCode.Space)) && canShoot && canPick && canFinish) {
+			Shooting();
+			canShoot = false;
+		}
 }
 
 	void Clean() {
