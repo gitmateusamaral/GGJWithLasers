@@ -100,7 +100,7 @@ public class PlayerController : MonoBehaviour {
 			}
 		
 
-			if ((Input.GetKey (KeyCode.W) || Input.GetButton ("PS4_X")) && !isJumping) {
+			if ((Input.GetKey (KeyCode.W) || Input.GetButton ("PS4_X") || Input.GetKey(KeyCode.UpArrow)) && !isJumping) {
 				rb.velocity = new Vector2 (0, jumpHeight);
 				isJumping = true;
 			}
@@ -121,7 +121,7 @@ public class PlayerController : MonoBehaviour {
 				canFinish = false;
 			}
 		}
-		if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKeyDown(KeyCode.Space)) && canShoot && canPick && canFinish) {
+		if ((Input.GetButtonDown ("PS4_Quad") || Input.GetKeyDown(KeyCode.Space)) && canShoot && canFinish) {
 			Shooting();
 			canShoot = false;
 		}
